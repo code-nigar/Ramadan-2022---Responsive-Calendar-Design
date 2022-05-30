@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family:"Poppins-Bold" ;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiBold" ;
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(fonts/Poppins-Regular.ttf);
+}
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(180deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 50%, rgba(252,176,69,1) 100%);
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins-Regular";
+}
+#calendar{
+    max-width: 60%;
+    min-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+#top{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    width: 90%;
+    padding: 20px 0px 10px 0px;
+    margin: auto;
+    font-family: "Poppins-Bold";
+    color:rgb(231, 255, 255);
+    text-shadow: -1px 1px #000;
+}
+#navbar{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 10px 5%;
+    margin:0px 10px;
+    
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid rgba(255,255,255,0.5);
+    box-shadow: 2px 4px rgba(255,255,255,0.5)
+}
+#navbar ul li:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+#navbar ul li:active{
+    background-color: rgba(255,255,255,0.0);
+}
+#content{
+    /*background-image: linear-gradient(#001fff,#00d4ff);*/
+    width: 90%;
+    margin: auto;
+}
+table{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 7px 10px 10px 10px;
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid rgba(255,255,255,0.5);
+    font-size: auto;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.fajr{
+    background-color: rgba(169, 236, 245, 0.5);
+}
+.maghrib{
+    background-color: rgba(245, 231, 169, 0.4);
+}
+.spn{
+    margin-top: 10px;
+}
+.heading{
+    border-bottom: 2px solid #fff;
+    font-family: "Poppins-SemiBold";
+}
+.spn{
+    font-family: "Poppins-Bold";
+}
+.empty{
+    border: 0px;
+    height: 20px;
+    background-color:transparent;
+}
+ span{
+    text-transform: capitalize;
+}
